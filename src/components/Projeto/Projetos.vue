@@ -63,7 +63,7 @@
           </h1>
           <p class="px-[30px] pt-[10px] md:text-[20px]">
             Há várias formas de se fazer um blog, e está é uma delas! Neste
-            projeto quizemos deixar a mostra como algo comum também pode ser
+            projeto quisemos deixar a mostra como algo comum também pode ser
             algo chamativo.
           </p>
         </div>
