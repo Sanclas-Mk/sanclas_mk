@@ -1,6 +1,7 @@
 <template>
   <div class="h-[400px] lg:h-[560px] xl:h-[620px] bg-menu text-indigo-950">
     <div
+      id="inicio"
       class="px-[40px] pt-[60px] lg:pt-[100px] xl:pt-[150px] lg:px-[110px] xl:px-[180px] pt-[100px] text-rosa"
     >
       <h1
@@ -13,7 +14,7 @@
         <span class="underline decoration-larajin underline-offset-4">
           executamos a novidade</span
         >
-        do mundo tecnológico. E encachar
+        do mundo tecnológico. E encaixar
         <span class="underline decoration-azulroxa underline-offset-4"
           >você</span
         >

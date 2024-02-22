@@ -2,7 +2,7 @@
   <footer class="bg-bg h-full">
     <div class="">
       <ul
-        class="flex justify-center items-center space-x-5 pt-10 font-medium font-texto text-[16px] lg:text-[22px] md:tracking-[2px]"
+        class="flex justify-center items-center space-x-7 max-sm:space-x-6 pt-10 font-medium font-texto text-[18px] lg:text-[22px] md:tracking-[2px]"
       >
         <li
           class="text-pink-100 transition ease-in-out hover:-translate-x-[1px] hover:scale-[1.1] duration-300 hover:text-pink-200"
@@ -23,7 +23,7 @@
           class="text-pink-100 transition ease-in-out hover:-translate-x-[1px] hover:scale-[1.1] duration-300 hover:text-pink-200"
         >
           <a href="https://www.instagram.com/sanclasmk/" target="_blank"
-            >Fale Conosco</a
+            >Contato</a
           >
         </li>
       </ul>

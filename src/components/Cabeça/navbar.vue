@@ -23,7 +23,7 @@
         :class="showMenu ? 'block' : 'hidden'"
         class="menu bg-menu mt-[16px] animate-slide-down touch-none font-texticulo font-medium text-[24px] md:text-[20px] h-[900px] md:h-auto md:animate-none md:bg-transparent relative md:pr-[40px] lg:space-x-5 md:flex md:space-x-3"
       >
-        <a href="/" @click="toggleNav">
+        <a href="#inicio" @click="toggleNav">
           <li
             class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
           >
@@ -51,11 +51,15 @@
             Pacotes
           </li>
         </a>
-        <a href="#" @click="toggleNav">
+        <a
+          href="https://www.instagram.com/sanclasmk/"
+          target="_blank"
+          @click="toggleNav"
+        >
           <li
             class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px] md:hidden"
           >
-            Fale conosco
+            Contato
           </li>
         </a>
         <Redes class="pt-[60px] md:hidden" />
