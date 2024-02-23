@@ -38,7 +38,7 @@
       <!--Botão para comprar o pacote no mobile-->
 
       <botaopacote
-        class="md:hidden mt-6 bg-gradient-to-r from-violet-400 to-purple-300 hover:bg-gradient-to-l from-violet-400 to-purple-300"
+        class="md:hidden bg-gradient-to-r from-violet-400 to-purple-300 hover:bg-gradient-to-l from-violet-400 to-purple-300"
       />
     </div>
 

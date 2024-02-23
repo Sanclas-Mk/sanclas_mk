@@ -20,7 +20,7 @@
         >
         do mundo tecnológico. E encaixar você neste mundo
         <span class="underline decoration-azulroxa underline-offset-4"
-          >é a nossa prioridade!</span
+          ><br />é a nossa prioridade!</span
         >
       </p>
     </div>

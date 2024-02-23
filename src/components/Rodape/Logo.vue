@@ -1,6 +1,6 @@
 <template>
   <div class="flex text-logo justify-center mt-3">
-    <a href="/"
+    <a href="#inicio"
       ><img class="h-[100px]" src="/logos/logoMKSanclas.png" alt=""
     /></a>
     <p class="text-[15px] text-rosa">&copy;</p>

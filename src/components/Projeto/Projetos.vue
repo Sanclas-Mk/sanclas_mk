@@ -20,7 +20,9 @@
           >
             Site de Contato
           </h1>
-          <p class="px-[30px] pt-[10px] md:pl-[60px] md:text-[20px]">
+          <p
+            class="px-[30px] pt-[10px] md:pl-[60px] text-[18px] md:text-[20px]"
+          >
             Uma forma de mostrar o seu trabalho sem muita complexidade. Um modo
             simples e direto!
           </p>
@@ -61,7 +63,7 @@
           >
             O blog
           </h1>
-          <p class="px-[30px] pt-[10px] md:text-[20px]">
+          <p class="px-[30px] pt-[10px] text-[18px] md:text-[20px]">
             Há várias formas de se fazer um blog, e está é uma delas! Neste
             projeto quisemos deixar a mostra como algo comum também pode ser
             algo chamativo.
@@ -86,7 +88,7 @@
             Site E-commerce
           </h1>
           <p
-            class="px-[30px] pb-[10px] pt-[10px] md:pl-[60px] md:text-[20px] xl:pr-[90px]"
+            class="px-[30px] pb-[10px] pt-[10px] md:pl-[60px] text-[18px] md:text-[20px] xl:pr-[90px]"
           >
             Um site e-commerce é uma ótima forma de mostrar a complexidade do
             que podemos fazer e o que você pode conquistar.
