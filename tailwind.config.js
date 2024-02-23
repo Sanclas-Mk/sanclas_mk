@@ -31,17 +31,31 @@ export default {
         slideDown: {
           "0%": { transform: "translatex(80px)", opacity: "0" },
           "100%": { transform: "translatex(0px)", opacity: "1" },
+        },
+        animacaoT: {
+          "0%": { transform: "translatey(-50px)", opacity: "0" },
+          "100%": { transform: "translatey(0px)", opacity: "1" },
+        },
+        animacaoL: {
+          "0%": { transform: "translatex(-50px)", opacity: "0" },
+          "100%": { transform: "translatex(0px)", opacity: "1" },
+        },
+        animacaoR: {
+          "0%": { transform: "translatex(50px)", opacity: "0" },
+          "100%": { transform: "translatex(0px)", opacity: "1" },
+        },
+        animacaoB: {
+          "0%": { transform: "translatey(50px)", opacity: "0" },
+          "100%": { transform: "translatey(0px)", opacity: "1" },
+        },
 
-        },
-        rotacionar: {
-          "0%": { transform: "rotate(0deg)" },
-          "100%": { transform: "rotate(360deg)" },
-        },
       },
       animation: {
         "slide-down": "slideDown 0.3s linear",
-        "rotacionar": "rotacionar 5s linear infinite",
-        "passarMouse": "passarMouse 5s ease-out infinite",
+        "animacao-t": "animacaoT 0.5s linear",
+        "animacao-l": "animacaoL 0.5s linear",
+        "animacao-r": "animacaoR 0.5s linear",
+        "animacao-b": "animacaoB 0.5s linear",
       }
 
 

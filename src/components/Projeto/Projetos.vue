@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="bg-bg font-texto text-outro lg:text-[25px] pt-[10px] md:pt-[80px]"
+      class="bg-black font-texto text-outro lg:text-[25px] pt-[10px] md:pt-[80px]"
     >
       <Titulos titulo="Projetos" class="mb-10" />
 
@@ -104,7 +104,7 @@
       </div>
 
       <p
-        class="text-center lg:pt-[50px] pb-[16px] text-[14px] font-texto md:text-[22px]"
+        class="text-center lg:pt-[50px] pb-[16px] text-[18px] font-texto md:text-[22px]"
       >
         Venha ver os nossos
       </p>

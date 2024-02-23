@@ -8,7 +8,7 @@
           alt="Logo MK Sanclas"
         />
         <div @click="toggleNav" class="md:hidden">
-          <button type="button" class="text-pink-100 hover:text-larajin">
+          <button type="button" class="text-indigo-100 hover:text-pink-100">
             <svg viewBox="0 0 24 24" class="w-[50px] h-[50px] fill-current">
               <path
                 fill-rule="evenodd"
@@ -25,28 +25,28 @@
       >
         <a href="#inicio" @click="toggleNav">
           <li
-            class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
+            class="text-indigo-50 hover:bg-pink-100 md:hover:text-pink-200 hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
           >
             Início
           </li>
         </a>
         <a href="#vantagens" @click="toggleNav">
           <li
-            class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
+            class="text-indigo-50 hover:bg-pink-100 md:hover:text-pink-200 hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
           >
             Vantagens
           </li>
         </a>
         <a href="#projetos" @click="toggleNav">
           <li
-            class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
+            class="text-indigo-50 hover:bg-pink-100 md:hover:text-pink-200 hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
           >
             Projetos
           </li>
         </a>
         <a href="#pacotes" @click="toggleNav">
           <li
-            class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
+            class="text-indigo-50 hover:bg-pink-100 md:hover:text-pink-200 hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
           >
             Pacotes
           </li>
@@ -57,7 +57,7 @@
           @click="toggleNav"
         >
           <li
-            class="text-pink-100/90 hover:bg-pink-100 md:hover:text-larajin hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px] md:hidden"
+            class="text-indigo-50 hover:bg-pink-100 md:hover:text-pink-200 hover:text-black md:hover:bg-transparent max-sm:border-b-[1px] border-pink-200 pt-[20px] pl-[19px] pb-[6px]"
           >
             Contato
           </li>

@@ -12,11 +12,13 @@
     />
 
     <div class="text-center">
-      <h1 class="font-texticulo font-bold py-4 max-sm:text-[18px] text-[22px]">
+      <h1
+        class="font-texticulo font-bold max-sm:text-[18px] text-[22px] border-x border-azulroxa/50 rounded-full mx-16 animate-animacao-r"
+      >
         {{ dado.titulo }}
       </h1>
       <p
-        class="font-texto lg:mx-[60px] max-sm:px-[50px] max-sm:text-[15px] md:px-[200px] lg:mx-[200px] lg:text-[20px]"
+        class="font-texto pt-5 lg:mx-[60px] max-sm:px-[50px] md:px-[200px] lg:mx-[200px] lg:text-[20px] animate-animacao-l"
       >
         {{ dado.descricao }}
       </p>
@@ -35,27 +37,27 @@ export default {
     const numeroElementos = ref(null);
     const dadosVantagens = [
       {
-        titulo: "Variedade",
+        titulo: "O que fazemos?",
         descricao:
           "Trabalhamos com diferentes linguagens de programação para construir os melhores Websites, Landing Pages, páginas E-commerce, Blogs, e muito mais! Entre em contato conosco, e mostre a sua ideia, nós podemos torná-la realidade!",
       },
       {
-        titulo: "Qualidade",
+        titulo: "Viemos para destacar!",
         descricao:
           "Fizemos pesquisas e observamos que muitas empresas fazem trabalhos comuns que não levam os seus clientes a um novo patamar. E decidimos entrar no mercado para mudar isso! Queremos destacar nossos clientes com nosso trabalho. E por isso buscamos fazer projetos de qualidade.",
       },
       {
-        titulo: "Comunicação",
+        titulo: "Comunicação como Essência",
         descricao:
           "A sua opinião é importante para nós e queremos estabelecer uma comunicação constante desde dos protótipos ao resultado final, tornando real o que você procura e fazendo um trabalho com excelência.",
       },
       {
-        titulo: "Técnica",
+        titulo: "Beleza e Eficiência",
         descricao:
           "Com um conjunto de habilidades prontas para serem usadas ao máximo, criamos as melhores e mais recentes estruturas para o seu site, um designer pensado para fundir beleza e eficiência, e funcionalidades que deixarão as pessoas engajadas!",
       },
       {
-        titulo: "Conhecimento",
+        titulo: "A busca pela Novidade!",
         descricao:
           "Preservamos o conhecimento como parte fundamental dos nossos negócios. Assim há o contínuo aprendizado das novas técnicas e informações tecnológicas, para que possamos evoluir e mostrar a você que há um mundo de oportunidades!",
       },
@@ -75,6 +77,15 @@ export default {
       }
       active.value--;
     };
+
+    function passar() {
+      if (active.value === numeroElementos.value - 1) {
+        active.value = 0;
+        return;
+      }
+      active.value++;
+    }
+    setInterval(passar, 8000);
 
     onMounted(() => {
       numeroElementos.value = document.querySelectorAll(".numElementos").length;

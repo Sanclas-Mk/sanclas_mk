@@ -15,5 +15,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+div a {
+  animation: pulsar 1.5s infinite alternate;
+}
+@keyframes pulsar {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: -1px -1px 14px 1px #f6b1e970;
+  }
+}
 </style>
